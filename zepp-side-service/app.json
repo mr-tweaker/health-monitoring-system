@@ -1,0 +1,14 @@
+{
+  "app": {
+    "appType": "app",
+    "name": "Health Monitor Side",
+    "version": "1.0.0"
+  },
+  "sideService": {
+    "url": "side/index.js",
+    "required": true
+  },
+  "permissions": [
+    "system.fetch"
+  ]
+}
